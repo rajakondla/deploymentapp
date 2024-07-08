@@ -60,7 +60,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'practicemyapp(dev)'
+          app-name: 'practicemyapp'
           slot-name: 'dev'
           package: .
           
